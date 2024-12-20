@@ -1,0 +1,95 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+}
+
+.Home{
+    border: 2px solid black;
+    margin: 100px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: skyblue;
+    font-weight: 700;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navigationBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Link{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 0px 7px;
+    border-radius: 7px;
+}
+
+.Link:hover{
+    background-color: rgb(43, 172, 223);
+    color: white;
+}
+
+.LinkPara{
+    font-size: larger;
+}
+
+.keywordAnalysisForm{
+    border: 2px solid black;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+
+.generatedKeywords{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid black;
+    width: 400px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: rgba(68, 192, 175, 0.347);
+    font-weight: 700;
+    font-size: larger;
+}
+
+.inputField{
+    width: 75%;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.button{
+    padding: 7px;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 7px;
+    font-weight: 700;
+    background-color: orange;
+}
+
+.button:hover{
+    background-color: orangered;
+    color: white;
+   font-weight: bold;
+    font-style: oblique;
+}
